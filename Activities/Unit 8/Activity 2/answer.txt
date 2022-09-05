@@ -1,0 +1,27 @@
+Activity 2: Data Structures
+
+Set operations include:
+Union
+Intersection
+Difference
+Symmetric difference
+
+1. Explain a use for each of these set operations within the context of your summative assessment.
+A Set is an unordered collection that is iterable. The biggest advantage of using a set instead of for example a list or an array, is that it is very optimized for checking if a spesific element exist inside the set or not. The reason sets are really good at this is because use the hash map data structure.
+
+A Union would include two different sets in one.
+An Intersection would find common elements in both sets.
+A Difference would return elements in the first set that don't exist in the second set.
+A Symmetric difference would return unique elements in both sets.
+
+
+2. Write a Python program to carry out a linear search on a list data structure.
+
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+def findElement(e):
+    for element in my_list:
+        if element == e:
+            return e
+    
+    return -1

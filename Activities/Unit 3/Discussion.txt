@@ -1,0 +1,23 @@
+Discuss which UML models are most applicable at different stages of the Software Development Life Cycle.
+
+SDLC stages are as follows:
+1. Requirement gathering and analysis
+2. Design
+3. Implementation or coding
+4. Testing
+5. Deployment
+6. Maintenance
+
+The following UML diagrams are most suited for Requirement gathering and analysis stage:
+1. Case diagrams
+
+The reason being is that in this stage, the software company is trying to figure out how would the end user use their software, and case diagrams are perfect for that.
+
+
+The following UML diagrams are most suited for Design stage:
+1. Class diagrams
+2. Activity diagrams
+3. State diagram
+4. Sequence diagram
+
+At this stage, designing good software is essential. The above diagrams will help in that regard.
