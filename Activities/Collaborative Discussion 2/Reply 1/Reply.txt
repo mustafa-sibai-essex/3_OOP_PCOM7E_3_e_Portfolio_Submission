@@ -1,0 +1,6 @@
+Hi Etkin,
+
+I completely agree with you regarding the weaknesses of the UML diagram being time-consuming and hard to make the time for it in time-sensitive projects. It is a two edge sword. On the one hand, you can make the time to design a good system using UML, and you might prevent unforeseen issues down the line, but you might be slightly late on your project delivery. On the other hand, you could completely skip making a UML diagram and face an unforeseen issue down the line because of a bad design decision early on and having to rework a large portion of the project. It is a hard decision to make. 
+
+I think UML diagrams should be used for systems that previously have never been designed by anyone on the team. This way you can do the initial UML design on one project, and in the future, the team will most likely work on a similar project with few modifications. In that case, the UML diagram can be updated and modified to fit the new project requirements rather than making a whole new diagram.
+

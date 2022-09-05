@@ -1,0 +1,33 @@
+
+Many software share common elements, such as registration, authentication, email verification, etc. If we are talking about video game software, they have common elements such as a leaderboard, party system, friend system, and more. If we look at game engines, they all use the entity-component system as a design pattern (Entity Component System: An Introductory Guide, 2022), and all use C++. Designing software to reuse these modules in future software cuts down on time and the cost it takes to create a new product.
+
+According to N. Padhy et al. (2018) research, they found
+
+11 reusable properties for software, and they are as follows
+
+Modules in the program (MIP)
+An algorithm used in the program (AP)
+Architecture driven approach (ADP)
+Design patterns (DP)
+Models in the project (MP)
+Used in the data project (UD)
+Knowledge requirement (KR)
+Requirement analysis (RA)
+Service contracts (SC)
+Test cases/test design (TCTD)
+Documentation in project (DIP)
+Software should be designed to be modular. One way to achieve that is to split each module into smaller libraries or DLLs. This way, each system is self-contained, and it becomes easier to deploy, scale and test. This is the microservice architecture philosophy. That is why MIP is one of the most important reusability properties. The second one would be AP since algorithms don't change that much if designed correctly and can be highly reusable from one project to another. 
+
+ADP and DP are the third and fourth most reusable property since often the architecture of software or design patterns used, if done well, can be reused in other projects. However, this is a double-edged sword since using the same architecture, or design patterns over and over would kill innovation.
+
+Regarding MP, UD, KR, and RA, many software use similar functionalities. Therefore, reusing code or requirements is very common. Finally, SC, TCTD, and DIP and the least usable properties since tests and documentation might change from one software to another.
+
+
+
+References: 
+
+Padhy, N., Satapathy, S., & Singh, R.P. (2018) 'State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review', in: Satapathy S., Bhateja V., Das S. (eds) Smart Computing and Informatics. Smart Innovation, Systems and Technologies. 77. Springer.
+
+
+
+www.simplilearn.com. 2022. Entity Component System: An Introductory Guide. [online] Available at: <https://www.simplilearn.com/entity-component-system-introductory-guide-article> [Accessed 11 August 2022].

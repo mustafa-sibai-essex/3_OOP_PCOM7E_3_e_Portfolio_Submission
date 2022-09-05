@@ -1,0 +1,23 @@
+Metamodel Approach in IOT (Initial Post)
+by Etkin Getir - Saturday, 6 August 2022, 11:58 PM
+Number of replies: 1
+Since object-oriented programming aims to simulate the real-world objects in programming practices, it is a perfect match for the Internet of Things (IoT) in which real-world objects communicate with each other via a network and users interact with them. For this reason, modeling and particularly metamodels play an important role in the design and implementation of the systems. 
+
+From my point of view, the most important strength of the metamodel approach (Fortino et al., 2015) is that it helps to identify the way smart object interacts with devices/services. It also urges developers to focus on the design aspects and agree upon them before the implementation and development process begins. Finally, such metamodels provide a blueprint for the systems that would be developed in the future, enhancing reusability of the models.
+
+When it comes to the weaknesses, I think metamodel approach also suffers from the same weaknesses of Unified Modeling Language (UML) (Lange, et al., 2006).
+
+For instance, lack of “formal semantics” is an important difficulty. Moreover, following the metamodel approach is time-consuming and thus, it may be challenging to follow this model especially in time-sensitive projects. Because of this, it might also prove difficult to persuade project owners and the developers to devote time to the design process. 
+
+I came up with this smart model for a driverless car:
+
+
+
+As expected from the metamodel approach it is a high-level model which excludes implementation details.
+
+
+References:
+
+Fortino, G., Guerrieri, A., Russo, W. & Savaglio, C. (2015) Towards a Development Methodology for Smart Object-Oriented IoT Systems: A Metamodel Approach. 2015 IEEE International Conference on Systems, Man, and Cybernetics. 1297-1302. 
+
+Lange, C. F. J., Chaudron, M. R. V. & Muskens, J. (2006) In practice: UML software architecture and design description. IEEE Software 23(2): 40-46.

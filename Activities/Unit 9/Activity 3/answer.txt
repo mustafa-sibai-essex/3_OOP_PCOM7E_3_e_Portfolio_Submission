@@ -1,0 +1,46 @@
+What is the cyclomatic complexity of the following piece of code?
+
+public static string IntroducePerson(string name, int age)
+{
+    var response = $"Hi! My name is {name} and I'm {age} years old.";
+
+    if (age >= 18)
+        response += " I'm an adult.";
+
+    if (name.Length > 7)
+        response += " I have a long name.";
+
+    return response;
+}
+
+----------------------------------------------------------------------------------------------
+
+To calculate the complexity of the above function, we use the McCabe's Formula. The formula goes as follows:
+
+M = E − N + 2P,
+
+where
+
+E = the number of edges of the graph.
+N = the number of nodes of the graph.
+P = the number of connected components.
+
+Turning this code into a graph looks like this:
+
+[Assignment]
+    ↓
+[if age >= 18] -> [String concatenation] ->
+    ↓
+[if name.Length > 7] -> [String concatenation] ->
+    ↓
+[return]
+
+The complexity for the above function is then calculated as follows:
+M = E − N + 2 * P
+M = 7 - 6 + 2 * 1
+M = 7 - 6 + 2
+M = 1 + 2
+M = 3
+
+Referances:
+Schultz, C. (2021) Cyclomatic Complexity Defined Clearly, With Examples. LinearB.

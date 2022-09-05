@@ -1,0 +1,38 @@
+Influence of reusability factors (Initial Post)
+by Zukiswa Tuso - Sunday, 19 June 2022, 5:54 AM
+Number of replies: 3
+Looking at the performance from different decades, the focus has evolved. In the article, Padhy et al. (2018) states that between 1991–1999 where efforts were focused for example on, UDPO, MIP, DP, DIP, AP, KR, RA, and TCTD with almost all researchers prioritising RA, DIP, and ADP during the period 2000–2009 other kinds of assets were used such as MIP and SC.
+
+We’re in a different environment where information and influence presented are based on new kinds of challenges. France, R. and Bieman, J., (2001) “Ultimately, software artifacts should exhibit externally visible qualities such as maintainability, reusability, testability, reliability”. 
+
+The industry needs to adapt its focus within the current climate seeing the are over decades of documentation in circulation and the reuse of software prioritisation could be:
+
+1.     Requirement analysis (RA)
+
+2.     Documentation in project (DIP)
+
+3.     Knowledge requirement (KR)
+
+4.     An algorithm used in the program (AP)
+
+5.     Modules in the program (MIP)
+
+6.     Architecture-driven approach (ADP)
+
+7.     Design patterns (DP)
+
+8.     Models in the project (MP)
+
+9.     Used in the data project (UD)
+
+10.  Service contracts (SC)
+
+11.  Test cases/test design (TCTD)
+
+Due to evolving models and codes its important for developers not to work in isolation from reality, that reuse is influenced by different factors that lie in complex relationships within organisations both large and small and reuse of a piece of OOS must consider the variety of users and stakeholders with conflicting requirements. Therefore, a Requirement Analysis and understanding of Documentation in Project must be considered first on the list through analysing, looking into old and new features, and gathering all requirements for saving time and money. Next AP, the MIP, ADP, and lastly communications between developers and users using test cases as many times by different users in different versions.
+
+Padhy, N., Satapathy, S. and Singh, R., 2018. State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review. ResearchGate, [Online]. 431-441. Available at: https://www.researchgate.net/publication/321975902 [Accessed 18 June 2022].
+
+France, R. and Bieman, J., (2001). 'Multi-view software evolution: a UML-based framework for evolving object-oriented software', Proceedings IEEE International Conference on Software Maintenance. ICSM 2001. Florence, Italy, 06 August 2002. Florence, Italy: IEEE, pp.386-395.
+
+

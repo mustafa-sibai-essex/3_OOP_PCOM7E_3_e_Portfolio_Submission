@@ -1,0 +1,31 @@
+Initial Post
+by Aaron Willis - Monday, 20 June 2022, 7:38 PM
+Number of replies: 3
+In my opinion these factors can be roughly categorised as follows:
+
+ADP, RA, DP, DIP.  These components can be used like a template for future development. If used effectively they can save a significant amount of time and standardise the software development process. Standardisation of methods can improve the reusability of other components and allow for more effective teamwork.
+
+MIP, AP, MP, TCTD.   If compatible, modules and algorithms can be reused to save a significant amount of time. However, they must be developed with this in mind to increase the reusability of the modules. Further, the reusability is likely to be limited to specific use cases.
+
+UD, KR  These factors can be used for continuous improvement and allow the streamlining of future work.
+ 
+
+Based on the above I would prioritise the list as follows:
+Architecture driven approach (ADP)
+Requirement analysis (RA)
+Design patterns (DP)
+Documentation in project (DIP)
+Modules in the program (MIP)
+An algorithm used in the program (AP)
+Models in the project (MP)
+Test cases/test design (TCTD)
+Used in the data project (UD)
+Knowledge requirement (KR)
+Service contracts (SC)
+
+
+
+
+References
+
+Padhy, N., Satapathy, S., & Singh, R.P. (2018) 'State-of-the-Art Object-Oriented Metrics and Its Reusability: A Decade Review. Smart Computing and Informatics. Smart Innovation, Systems and Technologies. 77. Springer.

@@ -1,0 +1,19 @@
+Describing a complex system using metamodeling
+by Mustafa Sibai - Friday, 2 September 2022, 11:23 PM
+Number of replies: 1
+Designing a system can be a complex task, especially when many systems have to interact with each other and exchange information with one another. The larger the system, the harder it becomes to communicate it to team members, and the harder it becomes to ensure that each sub-system is designed well. This is where Metamodeling comes in.
+
+According to Oreilly, “Metamodels are models that make statements about modeling. More precisely, a metamodel describes the possible structure of models – in an abstract way, it defines the constructs of a modeling language and their relationships, as well as constraints and modeling rules – but not the concrete syntax of the language.” (Model-Driven Software Development: Technology, Engineering, Management, 2022)
+
+For example, if we would design a complex system to allow IoT devices to communicate and share data, we would have to use a well-defined metamodeling language to illustrate that design to others. An example of such metamodel is UML diagrams. They are fantastic at illustrating how a certain system works. However, they do have a learning curve.
+
+“Metamodels are exploited in the analysis phase to abstract the main entities of the IoT (namely the human/digital Users and the Smart Objects), their basic features and high-level interactions.” (Fortino, Guerrieri, Russo and Savaglio, 2022)
+
+Similar to using Metamodeling to design a system for IoT devices to communicate and share information, it is possible to use the same modeling language to design a driverless vehicle. Below a UML diagram is used to demonstrate that.
+
+
+References:
+
+O’Reilly Online Learning. 2022. Model-Driven Software Development: Technology, Engineering, Management. [online] Available at: <https://www.oreilly.com/library/view/model-driven-software-development/9781118725764/OEBPS/c06.htm> [Accessed 2 September 2022].
+
+Fortino, G., Guerrieri, A., Russo, W. and Savaglio, C., 2022. Towards a Development Methodology for Smart Object-Oriented IoT Systems: A Metamodel Approach. [online] researchgate. Available at: <https://www.researchgate.net/publication/304292403_Towards_a_Development_Methodology_for_Smart_Object-Oriented_IoT_Systems_A_Metamodel_Approach> [Accessed 2 September 2022].
